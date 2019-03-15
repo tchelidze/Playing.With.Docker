@@ -1,0 +1,4 @@
+- Navigate to "Basic Node Js" folder
+- run `docker build -t basic/node .` it will build image called basic/node
+- run `docker run -p 88:8080 basic/node` it will run the container based on basic/node image and map your computer's 88 port to container's 8080 port.
+- Navigate to localhost:88, you should see a message
